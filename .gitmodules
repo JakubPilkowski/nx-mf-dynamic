@@ -1,0 +1,6 @@
+[submodule "apps/product"]
+	path = apps/product
+	url = https://github.com/JakubPilkowski/nx-mf-dynamic-product.git
+[submodule "apps/checkout"]
+	path = apps/checkout
+	url = https://github.com/JakubPilkowski/nx-mf-dynamic-checkout.git

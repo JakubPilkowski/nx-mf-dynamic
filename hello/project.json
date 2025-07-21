@@ -1,0 +1,9 @@
+{
+  "name": "hello",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "hello/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project hello --web",
+  "targets": {}
+}
