@@ -1,0 +1,14 @@
+{
+  "name": "store",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/store/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "options": {
+        "port": 4200
+      }
+    }
+  }
+}
