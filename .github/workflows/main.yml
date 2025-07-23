@@ -1,0 +1,17 @@
+name: Main CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  actions: read
+jobs:
+  ci:
+    uses: ./.github/workflows/base.yml
+    with:
+      start-method: 'main'
