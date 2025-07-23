@@ -93,5 +93,46 @@
       "dependsOn": ["^build"],
       "cache": true
     }
+  },
+  "release": {
+    "projectsRelationship": "independent",
+    "changelog": {
+      "projectChangelogs": {
+        "createRelease": "github",
+        "renderOptions": {
+          "authors": false,
+          "applyUsernameToAuthors": false,
+          "commitReferences": true,
+          "versionTitleDate": true
+        }
+      }
+    },
+    "versionPlans": true,
+    "conventionalCommits": {
+      "types": {
+        "feat": true,
+        "fix": true
+      },
+      "scopes": {
+        "deps": true,
+        "deps-dev": true,
+        "release": true
+      },
+      "versionBump": {
+        "feat": "minor",
+        "fix": "patch"
+      }
+    },
+    "groups": {
+      "__default__": {
+        "projects": ["*"],
+        "version": {
+          "generator": "@nx/js:release-version",
+          "generatorOptions": {
+            "skipPublish": true
+          }
+        }
+      }
+    }
   }
 }

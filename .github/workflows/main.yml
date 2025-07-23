@@ -8,6 +8,8 @@ on:
     branches:
       - main
 
+permissions:
+  actions: read
 jobs:
   ci:
     uses: ./.github/workflows/base.yml
