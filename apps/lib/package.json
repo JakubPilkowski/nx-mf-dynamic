@@ -1,0 +1,29 @@
+{
+  "name": "@nx-mf-dynamic/lib",
+  "version": "0.0.1",
+  "description": "Library for Nx Module Federation Dynamic project",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "nx build lib",
+    "dev": "nx serve lib",
+    "start": "nx serve lib",
+    "test": "nx test lib",
+    "lint": "nx lint lib"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
+  },
+  "keywords": [
+    "nx",
+    "module-federation",
+    "react",
+    "library"
+  ],
+  "author": "Jakub Piłkowski",
+  "license": "MIT"
+}

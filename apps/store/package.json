@@ -1,0 +1,30 @@
+{
+  "name": "@nx-mf-dynamic/store",
+  "version": "0.0.1",
+  "description": "Store application for Nx Module Federation Dynamic project",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "nx build store",
+    "dev": "nx serve store",
+    "start": "nx serve store",
+    "test": "nx test store",
+    "lint": "nx lint store"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
+  },
+  "keywords": [
+    "nx",
+    "module-federation",
+    "react",
+    "store"
+  ],
+  "author": "Jakub Piłkowski",
+  "license": "MIT"
+}
